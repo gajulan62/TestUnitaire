@@ -10,7 +10,7 @@ public class CalculatorTest {
     @BeforeEach
     public void init(){
         System.out.println("----------------");
-        System.out.println("Iitialisation apres chaque test");
+        System.out.println("Initialisation après chaque tests");
         this.calculator = new Calculator ();
             }
             @Test
