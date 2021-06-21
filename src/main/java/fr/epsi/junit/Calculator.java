@@ -6,6 +6,14 @@ public class Calculator {
         return a + b;
     }
 
+    public static short substract(int i) {
+        return 0;
+    }
+
+    public static short multi(int i) {
+        return 0;
+    }
+
     public int multi(int a, int b){
         return a * b;
     }
