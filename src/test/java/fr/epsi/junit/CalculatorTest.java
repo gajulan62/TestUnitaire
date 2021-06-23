@@ -53,6 +53,14 @@ public class CalculatorTest {
         Assertions.assertEquals(result, Calculator.div(a, b));
 
     }
+    @Test
+    public void should_tableau_add(){
+        int nmbers[] = {1,2,3,4,5};
+        // calculer d'un suite (n * n+1)/2
+        int resultat = calculator.add(nmbers);
+        Assertions.assertEquals(15, resultat);
+    }
+
 }
 
 
